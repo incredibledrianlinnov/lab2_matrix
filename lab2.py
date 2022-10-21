@@ -26,7 +26,7 @@ while abs(drob) > t:
     n += 1
     factorial = factorial * (2*n) * (2*n - 1)
     drob = new_summ - summ
-    new_sum = 0
+    new_summ = 0
     print(n - 1, ':', summ, ' ', drob)
 
 print('Сумма знакопеременного ряда:', summ)
